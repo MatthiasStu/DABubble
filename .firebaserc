@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "dabubble-262fa": {
+      "hosting": {
+        "dabubble2": [
+          "dabubble-262fa"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "dabubble-262fa"
+  }
+}
