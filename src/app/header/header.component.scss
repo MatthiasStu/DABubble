@@ -1,0 +1,35 @@
+.logo{ 
+    margin-left: 75px;
+    margin-top: 75px;
+    &:hover{
+        cursor: pointer;
+    }
+}
+
+.header { 
+    height: 20vh; 
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.register{ 
+    text-align: right;
+    padding-right: 48px;
+    padding-top: 75px;
+    >.new-at-da{ 
+        font-size: 18px;
+        padding: 10px 15px 10px 15px; 
+    }
+    >.create-acc{ 
+        font-size: 18px;
+        text-decoration: none;
+        color: #000AD2;
+        padding: 10px 15px 10px 15px; 
+        &:hover{ 
+            cursor: pointer;
+        }
+    }
+}
+

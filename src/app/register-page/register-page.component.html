@@ -1,0 +1,27 @@
+<div class="registerPageContent">
+    <mat-card>
+        <div class="matcardContent">
+            <mat-card-header>Konto erstellen</mat-card-header>
+            <a [routerLink]="'/login'">
+                <img src="../../assets/img/gobac k.png" class="goBackButton">
+            </a>
+            <h4>Mit deinem Namen und deiner E-Mail-Adresse hast du dein neues DABubble-Konto</h4>
+            <div class="nameIconDiv">
+                <input placeholder="Name und Nachname" class="nameInput">
+                <img src="../../assets/img/person_filled.png" class="nameIcon">
+            </div>
+            <div class="mailIconDiv">
+                <input placeholder="E-Mail" class="mailInput">
+                <img src="../../assets/img/mail.png" class="mailIcon">
+            </div>
+            <div class="pwIconDiv">
+                <input placeholder="Passwort">
+                <img src="../../assets/img/lock.png" class="pwIcon">
+            </div>
+            <div class="check">
+                <input type="checkbox" class="checkboxSec"> <span>Ich stimme der <a>Datenschutzerklärung</a> zu.</span>
+            </div>
+            <button mat-flat-button  class="furtherBtn">Weiter</button>
+        </div>
+    </mat-card>
+</div>

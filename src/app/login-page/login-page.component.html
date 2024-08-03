@@ -1,0 +1,31 @@
+<div class="loginPageContent">
+    <mat-card>
+        <div class="matcardContent">
+        <mat-card-header>Anmeldung</mat-card-header>
+        <h4>Wir empfehlen dir, die E-Mail-Adresse zu nutzen, die du bei der Arbeit verwendest.</h4>
+        <div class="mailIconDiv">
+         <input placeholder="E-Mail" class="mailInput">
+            <img src="../../assets/img/mail.png" class="mailIcon">
+         </div>
+         <div class="pwIconDiv">
+         <input placeholder="Passwort">
+         <img src="../../assets/img/lock.png" class="pwIcon">
+        </div>
+        <a src="#" class="forgotPw">Passwort vergessen?</a>
+        <div class="orDiv">
+            <img src="../../assets/img/line.png" class="line">
+            <h4 class="or">ODER</h4>
+            <img src="../../assets/img/line.png" class="line">
+        </div>
+         <div class="pwIconDiv">
+         <button placeholder="Passwort" class="googleBtn" (click)="loginWithGoogle()">Anmelden mit Google </button>
+         <img src="../../assets/img/Google.png" class="googleIcon">
+        </div>
+
+        <div class="btnDiv">
+            <button mat-flat-button  class="loginBtn">Anmelden</button>
+            <button mat-flat-button  class="guestBtn">Gäste-Login</button>
+        </div>
+    </div>
+      </mat-card>
+</div>

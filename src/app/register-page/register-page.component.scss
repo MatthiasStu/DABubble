@@ -1,0 +1,123 @@
+.registerPageContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 30vh);
+}
+
+mat-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 30px;
+    width: 606px;
+    box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.04);
+    mat-card-header {
+        color: #000ad2;;
+        font-size: 42px;
+        font-weight: 700px;
+        text-align: center;
+        margin-top: 34px;
+        margin-bottom: 34px;
+    }
+}
+.matcardContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding-left: 24px;
+    padding-right: 24px;
+    position: relative;
+}
+
+input {
+    margin-bottom: 40px;
+    width: 500px;
+    border-radius: 100px;
+    padding: 18px 32px 18px 32px;
+    background-color: #ECEEFE;
+    border: none;
+    box-sizing: border-box;
+    padding-left: 60px;
+ 
+}
+
+.goBackButton{
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    height: 40px;
+    width: 40px;
+}
+
+.mailIconDiv, .pwIconDiv, .nameIconDiv{ 
+    position: relative;
+}
+.pwIconDiv{ 
+    margin-bottom: 150px;
+}
+.mailIcon{ 
+    position: absolute;
+
+    top: 18px;
+    left: 20px;
+}
+.pwIcon{ 
+    position: absolute;
+    top: 15px;
+    left: 20px;
+}
+.nameIcon{ 
+    position: absolute;
+    top: 18px;
+    left: 20px;
+}
+.check {
+    display: flex;
+    text-wrap: nowrap;
+    align-items: center;
+    position: absolute;
+    bottom: 75px;
+    left: 47px;
+    > input[type="checkbox"] {
+      margin-right: 20px;
+      margin-top: 40px;
+      border: 2px solid #000ad2;
+      border-radius: 3px; 
+    }
+  
+    > span {
+      > a {
+        color: #000ad2;
+        &:hover{ 
+            cursor: pointer;
+        }
+      }
+    }
+  }//Muss noch gestylt werden 
+
+  
+  .furtherBtn{ 
+margin-right: 10px;
+position: absolute;
+width: 137px;
+height: 49px;
+border-radius: 25px;
+padding: 12px 25px 12px 25px;
+background-color: #000ad2 !important;
+color: white !important;
+bottom: 40px;
+right: 40px;
+&:hover{ 
+    cursor: pointer;
+    background-color: #4249d1 !important;
+}
+  }
+
+.checkboxSec{ 
+    width: 14px;
+    height: 14px;
+}

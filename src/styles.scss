@@ -1,1 +1,14 @@
-/* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: 'Nunito';
+    src: url("./assets/Nunito-Medium.ttf") ;
+}
+
+html,body{ 
+  font-family: 'Nunito' !important;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(236,238,254);
+}
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
